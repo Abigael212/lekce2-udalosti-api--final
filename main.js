@@ -16,9 +16,9 @@ turnRed.addEventListener("click", prepniZcervenani);
 makeBigger.addEventListener("click", zvetsitPismo);
 play.addEventListener("click", prehraj);
 pause.addEventListener("click", pauzni);
-mute.addEventListener("click", functionName=function(){upravHlasitost(0)});
-halfMute.addEventListener("click", functionName=function(){upravHlasitost(0.5)});
-loud.addEventListener("click", functionName=function(){upravHlasitost(1)});
+mute.addEventListener("click", () => {upravHlasitost(0)});
+halfMute.addEventListener("click", () => {upravHlasitost(0.5)});
+loud.addEventListener("click", () => {upravHlasitost(1)});
 reset.addEventListener("click", resetuj);
 
 /**
